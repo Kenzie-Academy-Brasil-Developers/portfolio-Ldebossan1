@@ -1,0 +1,23 @@
+.HeaderDiv {
+  display: flex;
+  justify-content: center;
+  margin: 1.875rem;
+  margin-inline: 3.75rem;
+  width: 92%;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+  font-size: 1.3125rem;
+  list-style: none;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
