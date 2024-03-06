@@ -1,29 +1,33 @@
-.AboutMeSection {
-  display: flex;
-  justify-content: center;
-  margin-top: 3.125rem;
-  margin-bottom: 5.625rem;
-}
-
-.AboutMeDiv {
+.AboutMeSection{
+  margin-top: 0.9375rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 15.625rem;
-  flex-direction: row;
-  gap: 1.25rem;
-  width: 50rem;
-}
-
-.MyImg {
-  width: 25%;
-  opacity: 100%;
-  border-radius: 0.5625rem;
-  line-height: 1.5em;
-}
-
-.AboutMeParagraph {
-  font-size: 1.25rem;
-  font-weight: 500;
+  margin-left: 3.125rem;
   font-family: "Noto Sans", sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.MyImg{
+  display: none;
+}
+
+@media (min-width: 720px) {
+  .AboutMeDiv {
+    width: 70%;
+    display: flex;
+    gap: 1.875rem;
+  }
+
+  .MyImg {
+    display: inline;
+    width: 25%;
+    opacity: 80%;
+    border-radius: 0.5rem;
+  }
+
+  .AboutMeParagraph {
+    font-size: 16px;
+  }
 }
