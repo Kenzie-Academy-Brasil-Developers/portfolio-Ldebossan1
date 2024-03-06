@@ -15,6 +15,14 @@ const SkillsSection = forwardRef<HTMLDivElement>((props, ref) => {
                         <img src="../../../public/css-3.png" alt="CssIcon" />
                         <h2>CSS</h2>
                     </li>
+                    <li className='ListSkills'>
+                        <img src="../../../public/script-java.png" alt="JavaScriptIcon" />
+                        <h2>JavaScript</h2>
+                    </li>
+                    <li className='ListSkills'>
+                        <img src="../../../public/react.png" alt="ReactIcon" />
+                        <h2>React</h2>
+                    </li>
                 </ul>
             </div>
         </section>

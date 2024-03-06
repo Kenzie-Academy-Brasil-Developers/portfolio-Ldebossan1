@@ -1,11 +1,13 @@
 *:root{
     --color-primary: #212529;
     --color-text: #e9ecef;
-    --font-family: "Noto Sans", sans-serif;
 }
 
 body {
     background-color: var(--color-primary);
     color: var(--color-text);
-    font-family: var(--font-family);
+}
+
+.mainDiv {
+    width: 100%;
 }

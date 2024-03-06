@@ -4,6 +4,7 @@ import './styles/reset.scss'
 import Header from './components/Header'
 import AboutMeSection from './components/AboutMeSection'
 import SkillsSection from './components/SkillsSection'
+import ProjectsSection from './components/ProjectsSection'
 
 
 const App: React.FC = () => {
@@ -28,11 +29,11 @@ const App: React.FC = () => {
   };
 
   return (
-      <div>
+      <div className='mainDiv'>
           <Header scrollToSection={scrollToSection} />
           <AboutMeSection ref={aboutMeSectionRef} />
-          <SkillsSection ref={skillsSectionRef} />:
-          {/* <ProjectsSection ref={projectsSectionRef} /> */}
+          <SkillsSection ref={skillsSectionRef} />
+          <ProjectsSection ref={projectsSectionRef} />
       </div>
   );
 }

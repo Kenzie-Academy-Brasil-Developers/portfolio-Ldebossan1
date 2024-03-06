@@ -1,11 +1,44 @@
 .HeaderDiv {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   margin: 1.875rem;
   margin-inline: 3.75rem;
-  width: 92%;
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.125rem;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.WppButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  width: 12%;
+  height: 2.5rem;
+  border: 0.125rem solid #495057;
+  color: #e9ecef;
+  font-weight: 700;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 1.25rem;
+}
+
+.WppButton:hover {
+  width: 15%;
+  height: 45px;
+  border: 0.125rem solid #e9ecef;
+  font-weight: 800;
+}
+
+.DivButton {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.625rem;
+}
+
+.HeaderButton:hover {
+  font-weight: 900;
 }
 
 ul {
@@ -13,7 +46,6 @@ ul {
   gap: 2rem;
   font-size: 1.3125rem;
   list-style: none;
-  font-weight: 600;
 }
 
 a {

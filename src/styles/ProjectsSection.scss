@@ -1,0 +1,66 @@
+.ProjectsSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    font-family: "Noto Sans", sans-serif;
+    margin-top: 3.125rem;
+}
+
+.ProjectTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.ProjectList {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 3.125rem;
+    gap: 5.625rem;
+}
+
+.ProjectCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.625rem;
+    padding: 1.875rem;
+    width: 15.625rem;
+    line-height: 150%;
+    height: 21.875rem;
+    border: 0.125rem solid #495057;
+    border-radius: 0.5rem;
+    color: #f8f9fa;
+    font-family: "Noto Sans", sans-serif;
+    gap: 0.9375rem;
+}
+
+.CardTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.CardDesc {
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.CardLang {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.ProjectCard a {
+    font-size:  1rem;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 800;
+    color: #4dabf7;
+}

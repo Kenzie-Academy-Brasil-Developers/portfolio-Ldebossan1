@@ -1,8 +1,8 @@
 .AboutMeSection {
   display: flex;
   justify-content: center;
-  width: 100%;
-  background-color: #495057;
+  margin-top: 3.125rem;
+  margin-bottom: 5.625rem;
 }
 
 .AboutMeDiv {
@@ -11,16 +11,19 @@
   align-items: center;
   height: 15.625rem;
   flex-direction: row;
-  gap: 3.75rem;
-  width: 50%;
+  gap: 1.25rem;
+  width: 50rem;
 }
 
-.AboutMeTitle {
-  font-size: 2rem;
-  font-weight: 900;
+.MyImg {
+  width: 25%;
+  opacity: 100%;
+  border-radius: 0.5625rem;
+  line-height: 1.5em;
 }
 
 .AboutMeParagraph {
   font-size: 1.25rem;
-  font-weight: 600;
+  font-weight: 500;
+  font-family: "Noto Sans", sans-serif;
 }
