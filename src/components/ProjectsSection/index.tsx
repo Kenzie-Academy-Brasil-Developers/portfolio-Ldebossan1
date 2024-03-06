@@ -1,7 +1,7 @@
 import '../../styles/ProjectsSection.scss'
 import { forwardRef } from "react";
 
-const ProjectsSection = forwardRef<HTMLDivElement>((props, ref) => {
+const ProjectsSection = forwardRef<HTMLDivElement>((_, ref) => {
     return (
         <div ref={ref} className="ProjectsSection">
             <h1 className="ProjectTitle">Projetos:</h1>

@@ -1,0 +1,18 @@
+.Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.625rem;
+  margin-bottom: 12.5rem;
+}
+
+.Footer img {
+  width: 50px;
+}
+
+@media (min-width: 720px) {
+  .Footer {
+    margin-bottom: 0px;
+  }
+}

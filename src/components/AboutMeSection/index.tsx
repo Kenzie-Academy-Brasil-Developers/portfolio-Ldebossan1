@@ -2,7 +2,7 @@ import { forwardRef } from 'react';
 import '../../styles/AboutMe.scss'
 import MyImg from '../../assets/myimg.jpg'
 
-const AboutMeSection = forwardRef<HTMLDivElement>((props, ref) => {
+const AboutMeSection = forwardRef<HTMLDivElement>((_, ref) => {
     return (
         <section className='AboutMeSection'>
             <div ref={ref} className='AboutMeDiv'>

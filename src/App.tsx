@@ -5,6 +5,7 @@ import Header from './components/Header'
 import AboutMeSection from './components/AboutMeSection'
 import SkillsSection from './components/SkillsSection'
 import ProjectsSection from './components/ProjectsSection'
+import Footer from './components/Footer'
 
 
 const App: React.FC = () => {
@@ -34,6 +35,7 @@ const App: React.FC = () => {
           <AboutMeSection ref={aboutMeSectionRef} />
           <SkillsSection ref={skillsSectionRef} />
           <ProjectsSection ref={projectsSectionRef} />
+          <Footer />
       </div>
   );
 }

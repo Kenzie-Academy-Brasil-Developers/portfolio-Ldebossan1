@@ -4,8 +4,9 @@ import HtmlIcon from '../../assets/html.png'
 import CssIcon from '../../assets/css-3.png'
 import JavaIcon from '../../assets/script-java.png'
 import ReactIcon from '../../assets/react.png'
+import PythonIcon from '../../assets/python.png'
 
-const SkillsSection = forwardRef<HTMLDivElement>((props, ref) => {
+const SkillsSection = forwardRef<HTMLDivElement>((_, ref) => {
     return (
         <section className='SkillSection'>
             <div ref={ref} className='SkillsDiv'>
@@ -26,6 +27,10 @@ const SkillsSection = forwardRef<HTMLDivElement>((props, ref) => {
                     <li className='ListSkills'>
                         <img src={ReactIcon} alt="ReactIcon" />
                         <h2>React</h2>
+                    </li>
+                    <li className='ListSkills'>
+                        <img src={PythonIcon} alt="ReactIcon" />
+                        <h2>Python</h2>
                     </li>
                 </ul>
             </div>
