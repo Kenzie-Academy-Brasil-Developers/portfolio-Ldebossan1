@@ -1,10 +1,10 @@
 import '../../styles/Skills.scss'
 import { forwardRef } from "react";
-import HtmlIcon from '../../assets/html.png'
-import CssIcon from '../../assets/css-3.png'
-import JavaIcon from '../../assets/script-java.png'
+import HtmlIcon from '../../assets/html-5-colorido.png'
+import CssIcon from '../../assets/css-3-colorido.png'
+import JavaIcon from '../../assets/script-java-colorido.png'
 import ReactIcon from '../../assets/react.png'
-import PythonIcon from '../../assets/python.png'
+import PythonIcon from '../../assets/python-colorido.png'
 
 const SkillsSection = forwardRef<HTMLDivElement>((_, ref) => {
     return (

@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className="Footer">
             <a href="https://www.instagram.com/ldebossan1/" target="_blank"><img src={InstagramIcon} alt="InstagramIcon" /></a>
-            <a href="https://www.instagram.com/ldebossan1/" target="_blank"><img src={LinkedinIcon} alt="InstagramIcon" /></a>
+            <a href="https://www.linkedin.com/in/lucas-cavalheiro-e-silva-debossan/" target="_blank"><img src={LinkedinIcon} alt="InstagramIcon" /></a>
         </footer>
     )
 }
